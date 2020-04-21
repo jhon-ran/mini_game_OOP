@@ -1,4 +1,4 @@
-# Mini game in POO
+# Mini game in OOP
 
 
 
