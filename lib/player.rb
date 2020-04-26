@@ -1,5 +1,5 @@
 
-#require 'pry'
+require 'pry'
 
 class Player
   attr_accessor :name, :life_points
@@ -33,6 +33,7 @@ class Player
     player.gets_damage(damage)
     puts "He was damaged with #{damage} points"
     puts "#{player.name} has now #{player.life_points} points of life"
+    puts "\n"
   end
 
   # Randomly calculates damage of attack
@@ -106,6 +107,6 @@ end
 
     end
 
-   # binding.pry
+    binding.pry
 
   end 
